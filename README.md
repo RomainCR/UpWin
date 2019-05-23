@@ -1,16 +1,28 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projet UpAndWin
+date de debut: 23 mai 2019
 
-## Available Scripts
+repo github:https://github.com/MarcGregoireBalme/UpAndWin.git
 
-In the project directory, you can run:
+equipe:
+_Balme Marc-Gregoire
+_Briastre Benoit
+_Mongoin Yann
+_Cessieux Nicolas
+_Crey Romain
 
-### `npm start`
+Dependences:
+_BluePrint
+_Express
+_Mongodb
+_Router
+_Axios
+_ReactStap
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+version:
+_npm 6.9.0
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+EsLint AIRBNB
+
 
 ### `npm test`
 
