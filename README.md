@@ -4,24 +4,27 @@ date de debut: 23 mai 2019
 
 repo github:https://github.com/MarcGregoireBalme/UpAndWin.git
 
-#`equipe:`
-_Balme Marc-Gregoire
-_Briastre Benoit
-_Mongoin Yann
-_Cessieux Nicolas
-_Crey Romain
+##`equipe:`
 
-#`Dependences:`
-_BluePrint
-_Express
-_Mongodb
-_Router
-_Axios
-_ReactStap
+_Balme Marc-Gregoire<br>
+_Briastre Benoit<br>
+_Mongoin Yann<br>
+_Cessieux Nicolas<br>
+_Crey Romain<br>
 
-#`version:`
-_npm 6.9.0
-_node 11.11.0
+##`Dependences:`
+
+_BluePrint<br>
+_Express<br>
+_Mongodb<br>
+_Router<br>
+_Axios<br>
+_ReactStap<br>
+
+##`version:`
+
+_npm 6.9.0<br>
+_node 11.11.0<br>
 
 EsLint AIRBNB
 
