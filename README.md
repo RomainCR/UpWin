@@ -20,6 +20,7 @@ _ReactStap
 
 version:
 _npm 6.9.0
+_node 11.11.0
 
 EsLint AIRBNB
 
