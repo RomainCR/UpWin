@@ -1,16 +1,17 @@
 ###`Projet UpAndWin`
+
 date de debut: 23 mai 2019
 
 repo github:https://github.com/MarcGregoireBalme/UpAndWin.git
 
-equipe:
+#`equipe:`
 _Balme Marc-Gregoire
 _Briastre Benoit
 _Mongoin Yann
 _Cessieux Nicolas
 _Crey Romain
 
-Dependences:
+#`Dependences:`
 _BluePrint
 _Express
 _Mongodb
@@ -18,7 +19,7 @@ _Router
 _Axios
 _ReactStap
 
-version:
+#`version:`
 _npm 6.9.0
 _node 11.11.0
 
