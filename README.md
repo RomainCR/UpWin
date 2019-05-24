@@ -1,10 +1,10 @@
-### Projet UpAndWin
+### UpAndWin project
 
 date de debut: 23 mai 2019
 
 repo github:https://github.com/MarcGregoireBalme/UpAndWin.git
 
-## equipe:
+## team:
 
 Balme Marc-Gregoire<br>
 Briastre Benoit<br>
