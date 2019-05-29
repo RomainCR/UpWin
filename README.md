@@ -4,6 +4,8 @@ date de debut: 23 mai 2019
 
 repo github:https://github.com/MarcGregoireBalme/UpAndWin.git
 
+branches: NumUserStory_features
+
 ## team:
 
 Balme Marc-Gregoire<br>
