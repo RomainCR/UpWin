@@ -1,33 +1,79 @@
-.App {
-  text-align: center;
-}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap);
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 400px) {
+  .App {
+    background-color: #1d1d1d;
+    min-height: 100vh;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
-  to {
-    transform: rotate(360deg);
+
+  .Button {
+    min-width: 100%;
+    background-image: linear-gradient(45deg, #eb1a0f, #eb4d0f);
+    border-style: none;
+    border-radius: 50px;
+    padding: 12px 24px 12px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+  }
+  .Button:hover {
+    cursor: pointer;
+    background-image: linear-gradient(45deg, #eb1a0f, #eb1a0f);
+    transition: 0.5s;
+  }
+
+  h1 {
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .Semi-bold-Italic {
+    font-weight: 600;
+    font-style: italic;
+  }
+}
+
+@media screen and (min-width: 401px) {
+  .App {
+    background-color: #1d1d1d;
+    min-height: 100vh;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    align-content: center;
+  }
+
+  .Button {
+    min-width: 100%;
+    background-image: linear-gradient(45deg, #eb1a0f, #eb4d0f);
+    border-style: none;
+    border-radius: 50px;
+    padding: 12px 24px 12px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+  }
+  .Button:hover {
+    cursor: pointer;
+    background-image: linear-gradient(45deg, #eb1a0f, #eb1a0f);
+    transition: 0.5s;
+  }
+
+  h1 {
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .Semi-bold-Italic {
+    font-weight: 600;
+    font-style: italic;
   }
 }
