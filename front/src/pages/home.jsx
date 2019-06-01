@@ -17,14 +17,14 @@ class Home extends Component {
             <img src={LogoJeu} className="Logo-jeu" alt="" />
             <h1>
               <span className="Text-background">
-              Les tutos
+                Les tutos
                 {' '}
                 <span className="Semi-bold-Italic">League of Legends</span>
                 {' '}
-              sont maintenant disponibles sur Up&Win !
+                sont maintenant disponibles sur Up&Win !
               </span>
             </h1>
-            <button type="button" className="Button">
+            <button type="button" className="Button" onClick={this.props.onClose}>
               Go !
             </button>
           </div>
