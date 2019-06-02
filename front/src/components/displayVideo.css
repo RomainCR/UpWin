@@ -1,0 +1,42 @@
+@media screen and (max-width: 720px) {
+  .container {
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+    padding        : 0;
+  }
+
+  .vid {
+    margin-top: 2vh;
+    width     : 100%;
+  }
+
+}
+
+@media screen and (min-width: 960px) {
+  .container {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    padding        : 0;
+  }
+
+  .vid {
+    width : 400px;
+    margin: 3vh;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .container {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    padding        : 0;
+  }
+
+  .vid {
+    width : 600px;
+    margin: 3vh;
+  }
+}

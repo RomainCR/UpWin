@@ -1,6 +1,6 @@
 @media screen and (max-width: 400px) {
   .Addvertising-img {
-    position: absolute;
+    /*position: absolute;*/
     background-image: url("../img/League_of_Legends_Img.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 
 @media screen and (min-width: 401px) {
   .Addvertising-img {
-    position: absolute;
+    /*position: absolute;*/
     background-image: url("../img/League_of_Legends_Img.jpg");
     background-position: center;
     background-repeat: no-repeat;
