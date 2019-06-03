@@ -8,7 +8,7 @@ const NameForm = (props) => {
   return (
     <form onSubmit={handleSubmit}>
       <div>
-        <label>First Name</label>
+        <div>First Name</div>
         <div>
           <Field
             name="firstName"
@@ -19,7 +19,7 @@ const NameForm = (props) => {
         </div>
       </div>
       <div>
-        <label>Last Name</label>
+        <div>Last Name</div>
         <div>
           <Field
             name="lastName"
@@ -30,7 +30,7 @@ const NameForm = (props) => {
         </div>
       </div>
       <div>
-        <label>Email</label>
+        <div>Email</div>
         <div>
           <Field
             name="email"
@@ -41,22 +41,22 @@ const NameForm = (props) => {
         </div>
       </div>
       <div>
-        <label>Sex</label>
+        <div>Sex</div>
         <div>
-          <label>
+          <div>
             <Field name="sex" component="input" type="radio" value="male" />
             {' '}
             Male
-          </label>
-          <label>
+          </div>
+          <div>
             <Field name="sex" component="input" type="radio" value="female" />
             {' '}
             Female
-          </label>
+          </div>
         </div>
       </div>
       <div>
-        <label>Favorite Color</label>
+        <div>Favorite Color</div>
         <div>
           <Field name="favoriteColor" component="select">
             <option />
@@ -67,7 +67,7 @@ const NameForm = (props) => {
         </div>
       </div>
       <div>
-        <label>Employed</label>
+        <div>Employed</div>
         <div>
           <Field
             name="employed"
@@ -78,7 +78,7 @@ const NameForm = (props) => {
         </div>
       </div>
       <div>
-        <label>Notes</label>
+        <div>Notes</div>
         <div>
           <Field name="notes" component="textarea" />
         </div>
