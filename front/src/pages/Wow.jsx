@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
 import '../App.css';
-import './Home.css';
+import './wow.css';
 import { NavLink } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Dropdown from 'react-bootstrap/Dropdown';
 import Button from 'react-bootstrap/Button';
-import LogoJeu from '../img/League_of_Legends_Logo.png';
 import DisplayVideo from '../components/DisplayVideo';
 import 'bootstrap/dist/css/bootstrap.css';
-import NameForm from './NameForm';
-
 
 class Home extends Component {
   constructor(props) {
@@ -41,14 +38,13 @@ class Home extends Component {
             <NavLink to="/Wow">Wow</NavLink>
           </Nav.Item> */}
         </Nav>
-        <div className="Addvertising-img">
+        <div className="wow-img">
           <div className="Addvertising">
-            <img src={LogoJeu} className="Logo-jeu" alt="" />
             <h1>
               <span className="Text-background">
                 Les tutos
                 {' '}
-                <span className="Semi-bold-Italic">League of Legends</span>
+                <span className="Semi-bold-Italic">World of Warcraft</span>
                 {' '}
 sont
                 maintenant disponibles sur Up&Win !
@@ -61,9 +57,6 @@ sont
         </div>
         <div>
           <DisplayVideo />
-        </div>
-        <div>
-          <NameForm />
         </div>
       </div>
     );

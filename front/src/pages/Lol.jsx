@@ -9,8 +9,6 @@ import Button from 'react-bootstrap/Button';
 import LogoJeu from '../img/League_of_Legends_Logo.png';
 import DisplayVideo from '../components/DisplayVideo';
 import 'bootstrap/dist/css/bootstrap.css';
-import NameForm from './NameForm';
-
 
 class Home extends Component {
   constructor(props) {
@@ -61,9 +59,6 @@ sont
         </div>
         <div>
           <DisplayVideo />
-        </div>
-        <div>
-          <NameForm />
         </div>
       </div>
     );
