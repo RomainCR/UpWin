@@ -29,7 +29,7 @@ sont
                 maintenant disponibles sur Up&Win !
               </span>
             </h1>
-            <button type="button" className="Button" onClick={this.props.onClose}>
+            <button type="button" className="Button">
               Go !
             </button>
           </div>
